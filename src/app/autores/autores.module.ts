@@ -9,12 +9,7 @@ import { AutoresPageRoutingModule } from './autores-routing.module';
 import { AutoresPage } from './autores.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    AutoresPageRoutingModule
-  ],
-  declarations: [AutoresPage]
+  imports: [CommonModule, FormsModule, IonicModule, AutoresPageRoutingModule],
+  declarations: [AutoresPage],
 })
 export class AutoresPageModule {}
